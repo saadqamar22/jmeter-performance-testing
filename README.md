@@ -47,8 +47,8 @@ The current generated report is available in `results/html-report/index.html`.
 - Response Code = 200
 - Response Time < 2000ms
 
-## Folder Structure
 
+## Folder Structure
 jmeter-performance-testing/
 ├── testplans/
 │   └── JMeter Performance Testing - JSONPlaceholder.jmx
