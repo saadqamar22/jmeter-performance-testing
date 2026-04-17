@@ -47,8 +47,9 @@ The current generated report is available in `results/html-report/index.html`.
 - Response Code = 200
 - Response Time < 2000ms
 
-
 ## Folder Structure
+
+```
 jmeter-performance-testing/
 ├── testplans/
 │   └── JMeter Performance Testing - JSONPlaceholder.jmx
@@ -57,21 +58,10 @@ jmeter-performance-testing/
 │   │   └── index.html
 │   └── results.jtl
 └── README.md
+```
 
 ## How to Run
 
 Open `testplans/JMeter Performance Testing - JSONPlaceholder.jmx` in Apache JMeter and click the Play button.
 
-Or run in non-GUI mode from the JMeter `bin` directory:
 
-```bash
-./jmeter -n -t ~/Desktop/jmeter-performance-testing/testplans/JMeter\ Performance\ Testing\ -\ JSONPlaceholder.jmx \
-  -l ~/Desktop/jmeter-performance-testing/results/results.jtl \
-  -e -o ~/Desktop/jmeter-performance-testing/results/html-report
-```
-
-Then open the report:
-
-```bash
-open ~/Desktop/jmeter-performance-testing/results/html-report/index.html
-```
